@@ -1,0 +1,101 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+}
+body
+{
+  width: 80%;
+
+}
+.pic
+{
+
+
+  width: 100%;
+  margin-left:117px ;
+  
+
+
+}
+.one
+{
+  width: 100%;
+  margin-left:117px ;
+}
+
+ul
+{
+    list-style: none;
+    position: absolute;
+  
+    
+    
+}
+ul li 
+{
+float: left;
+background: rgb(39, 12, 82);
+text-align: center;
+width: 288px;
+height: 40px;
+line-height: 40px;
+box-shadow: 2px 3px 4px #080808;
+
+
+}
+ul li a
+{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    display:block;
+    font-family: fantasy;
+}
+ul li a:hover
+{
+    background:#291f59;
+    color: rgb(226, 35, 21);
+    font-family: sans-serif;
+}
+ul ul
+{
+    margin:0;
+    padding: 0;
+    width: 30px;
+    display:none;
+}
+ul li:hover>ul
+{
+    display: block;
+}
+ul ul ul
+
+{
+margin-left:120px ;
+position: absolute;
+top:43px;
+left: 140px;
+}
+.lest
+{
+  font-size: 23px;
+  margin-top: 0px;
+  background-color: aqua;
+  margin-left: 0px;
+  width: 1153px;
+  
+}
+.main img
+{
+  width: 1153px;
+  margin-left: 117px;
+
+  
+}
+.foo{
+  position: absolute;
+  right: 4%;
+ 
+}
